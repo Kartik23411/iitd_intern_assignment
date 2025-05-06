@@ -31,9 +31,6 @@ export default function FilesPage() {
             {f.uploadDate?.toDate().toLocaleString() || '—'} —{' '}
             Words: {f.wordCount}
             <br />
-            <a href={f.downloadUrl} target="_blank" rel="noopener">
-              View
-            </a>
           </li>
         ))}
       </ul>
